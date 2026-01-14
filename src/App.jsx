@@ -2,7 +2,7 @@ import './App.css'
 import About from './components/About';
 import Myinfo from './components/Myinfo';
 import Navbar from './components/Navbar';
-import Skills from "./components/skills";
+import Skills from "./components/Skills";
 import { Routes, Route } from "react-router-dom";
 import { BrowserRouter as Router,Link } from "react-router-dom";
 
