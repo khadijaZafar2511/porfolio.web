@@ -1,6 +1,6 @@
 import './App.css'
 import About from './components/About';
-import Myinfo from './components/myinfo';
+import Myinfo from './components/Myinfo';
 import Navbar from './components/Navbar';
 import Skills from "./components/skills";
 import { Routes, Route } from "react-router-dom";
