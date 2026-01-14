@@ -8,7 +8,7 @@ export default function Myinfo() {
           <div className="  md:h-[100dvh] md:w-1/2  w-full h-1/2 flex flex-col  items-center justify-center ">
             <div className="md:h-[60dvh] h-1/2 w-3/4 flex flex-col md:mt-30 ">
               <h1 className="md:text-3xl text-xl  font-bold">
-                HEY! <br /> I AM WEB DEVELOPER{" "}
+                HEY! <br /> I AM MERNSTACK DEVELOPER
               </h1>
               <p className="md:text-lg text-sm">
                 a passionate web developer creating reponsive
