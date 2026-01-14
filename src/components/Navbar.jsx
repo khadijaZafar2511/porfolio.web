@@ -18,10 +18,10 @@ export default function Navbar() {
             <Link to="/">Portfolio</Link>
             <Link to="/">Blog</Link>
             <button className="md:h-[5svh] h-[3svh] md:w-[7svw] rounded bg-purple-500 text-white text-base">
-              <a href="https://www.google.com/">Contact</a>
+              <a href="">Contact</a>
             </button>
           </div>
         </nav>
-      </>
-    );
-}
+        </>
+        )
+        }
