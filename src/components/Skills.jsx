@@ -21,28 +21,28 @@ export default function skills() {
                 <div className="border rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className="md:h-[10dvh] h-[8dvh] object-contain "
-                    src="/src/assets/css.png"
+                    src="/assets/css.png"
                   ></img>
                   CSS
                 </div>
                 <div className="border   rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className=" h-[9dvh] md:h-[10dvh]"
-                    src="/src/assets/html.png"
+                    src="/assets/html.png"
                   ></img>
                   HTML
                 </div>
                 <div className="border  rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className="h-[8dvh] md:h-[10dvh]"
-                    src="/src/assets/java.png"
+                    src="/assets/java.png"
                   ></img>
                   JAVASCRIPT
                 </div>
                 <div className="border  rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className="h-[8dvh] md:h-[10dvh]"
-                    src="/src/assets/github.png"
+                    src="/assets/github.png"
                   ></img>
                   GITHUB
                 </div>
@@ -51,28 +51,28 @@ export default function skills() {
                 <div className="border  rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className="h-[8dvh] md:h-[10dvh] "
-                    src="/src/assets/mongodb.png"
+                    src="/assets/mongodb.png"
                   ></img>
                   MONGO DB
                 </div>
                 <div className="border rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className="h-[8dvh] md:h-[10dvh]"
-                    src="/src/assets/expressjs.png"
+                    src="/assets/expressjs.png"
                   ></img>
                   EXPRESS.JS
                 </div>
                 <div className="border  rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className="h-[8dvh] md:h-[10dvh]"
-                    src="/src/assets/react.png"
+                    src="/assets/react.png"
                   ></img>
                   REACT.JS
                 </div>
                 <div className="border rounded-2xl md:rounded-4xl border-none shadow-2xl shadow-purple-400 bg-purple-300 flex items-center justify-center flex-col">
                   <img
                     className="h-[8dvh] md:h-[10dvh]"
-                    src="/src/assets/next.png"
+                    src="/assets/next.png"
                   ></img>
                   NEXT.JS
                 </div>

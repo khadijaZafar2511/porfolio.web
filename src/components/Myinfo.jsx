@@ -37,7 +37,7 @@ export default function Myinfo() {
                   <div className="bg-[rgba(164,118,212,1)] md:h-[40dvh] md:w-[40dvh] h-[25dvh] w-[25dvh] brder rounded-full">
                     <img
                       className="md:h-[40dvh] md:w-[40dvh] h-[25dvh] w-[25dvh] brder rounded-full  "
-                      src="/src/assets/images2.png"
+                      src="/assets/images2.png"
                     ></img>
                   </div>
                 </div>

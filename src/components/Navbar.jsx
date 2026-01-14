@@ -7,7 +7,7 @@ export default function Navbar() {
       <>
         <nav className="w-full  py-2 bg-gray-50 relative z-10 ">
           <div className=" flex  font-medium text-sm md:text-base px-5 md:px-2  gap-4 md:gap-9">
-            <img className="h-[4svh] md:ml-20 " src="/src/assets/k.png"></img>
+            <img className="h-[4svh] md:ml-20 " src="/assets/k.png"></img>
             <h1 className=" mr-0 md:mr-130 text-purple-900  font-bold hidden lg:block">
               khadija Zafar
             </h1>

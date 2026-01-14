@@ -8,7 +8,7 @@ export default function About() {
           <h1 className="text-3xl font-bold text-gray-200  flex justify-center">
             <img
               className="w-[6dvh] h-[6dvh] mr-3"
-              src="/src/assets/about.png"
+              src="/assets/about.png"
             ></img>
             ABOUT ME
           </h1>
@@ -29,7 +29,7 @@ export default function About() {
           <h1 className="text-3xl font-bold text-gray-200  flex justify-center">
             <img
               className="w-[6dvh] h-[6dvh] mr-3"
-              src="/src/assets/projects.png"
+              src="/assets/projects.png"
             ></img>
             PROJECTS
           </h1>
@@ -60,7 +60,7 @@ export default function About() {
           <h1 className="text-3xl font-bold text-gray-200  flex justify-center">
             <img
               className="w-[6dvh] h-[6dvh] mr-3"
-              src="/src/assets/education.png"
+              src="/assets/education.png"
             ></img>
             EDUCATION
           </h1>
