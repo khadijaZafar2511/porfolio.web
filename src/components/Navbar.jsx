@@ -15,7 +15,7 @@ export default function Navbar() {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/services">Service</Link>
-            <Link to="/">Portfolio</Link>
+            <Link to="/projects">Projects</Link>
             <Link to="/">Blog</Link>
             <button className="md:h-[5svh] h-[3svh] md:w-[7svw] rounded bg-purple-500 text-white text-base">
               <a href="">Contact</a>
