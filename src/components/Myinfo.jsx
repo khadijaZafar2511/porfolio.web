@@ -19,13 +19,13 @@ export default function Myinfo() {
             </div>
             <div className="h-1/3 w-full">
               <div className="  md:text-xl text-sm md:h-[10dvh] h-[10dvh] w-full text-white  grid grid-cols-3 gap-1 md:px-15  px-10">
-                <dv className="   flex justify-center items-center  bg-[rgb(172,129,239)]  border  border-solid border-1">
+                <dv className=" flex justify-center items-center  bg-[rgb(172,129,239)]  border  border-solid border-1">
                   experience
                 </dv>
                 <div className=" flex justify-center items-center border  border-solid border-1 bg-[rgb(172,129,239)]">
                   project
                 </div>
-                <div className="flex justify-center items-center border border-rounded border-white border-solid border-1 bg-[rgb(172,129,239)] ">
+                <div className=" flex justify-center items-center border border-rounded border-white border-solid border-1 bg-[rgb(172,129,239)] ">
                   happy clients
                 </div>
               </div>

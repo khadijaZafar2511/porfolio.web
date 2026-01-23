@@ -1,4 +1,3 @@
-import './App.css'
 import About from './components/About';
 import Myinfo from './components/Myinfo';
 import Navbar from './components/Navbar';

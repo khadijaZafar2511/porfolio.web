@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <div className="w-full h-screen  ">
+      <div className="w-full min-h-screen overflow-x-hidden ">
         <div className="w-full h-1/4  bg-[rgb(192,149,239)] ">
           <h1 className="md:text-3xl text-2xl font-bold text-gray-200  flex justify-center">
             <img
