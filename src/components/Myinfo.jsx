@@ -4,19 +4,19 @@ export default function Myinfo() {
   return (
     <>
       <div className="w-full min-h-screen  ">
-        <div className="w-full h-[100dvh]  flex flex-col  md:flex-row bg-gradient-to-tl from-white-500 via-[rgb(192,149,239)] to-[rgb(192,149,239)] ">
+        <div className="w-full h-[100dvh]  flex flex-col  md:flex-row bg-gradient-to-t from-white-500  to-[rgb(192,149,239)] ">
           <div className="  md:h-[100dvh] md:w-1/2  w-full h-3/4 flex flex-col  items-center justify-center ">
             <div className="md:h-[60dvh] h-1/2 w-3/4 flex flex-col md:mt-30">
               <h1 className="md:text-3xl text-xl  font-bold">
-                HEY! <br /> I AM MERNSTACK DEVELOPER
+                HEY! <h1 className="text-purple-800"> I AM MERNSTACK</h1>
+                DEVELOPER
               </h1>
               <p className="md:text-lg text-sm">
-                a passionate web developer creating reponsive
-                 and modren web experiences. I specialize in
-                React, Tailwind, CSS, and building user-friendly
-               interfaces.
+                a passionate web developer creating reponsive and modren web
+                experiences. I specialize in React, Tailwind, CSS, and building
+                user-friendly interfaces.
               </p>
-              <botton className="lg:h-[9dvh]  h-[6dvh] lg:w-[9svw]  w-[23svw] rounded bg-[rgb(172,129,239)] border text-white text-base lg:mt-10 mt-4 flex items-center justify-center lg:text-xl text-sm">
+              <botton className="lg:h-[9dvh]  h-[6dvh] lg:w-[9svw] text-gray-200 w-[23svw] font-bold rounded-md border-none bg-[rgb(172,129,239)] border text-white text-base lg:mt-10 mt-4 flex items-center justify-center lg:text-xl text-sm">
                 SAY HELLO!
               </botton>
             </div>
@@ -36,7 +36,7 @@ export default function Myinfo() {
           </div>
           <div className=" md:h-[100dvh] md:w-1/2 w-full h-1/3 flex items-center md:justify-start justify-center">
             <div className=" ml-10 md:h-[60dvh] h-[35dvh] w-[35dvh]  md:w-[60dvh] flex items-center justify-center border  border-none rounded-full  bg-gradient-to-tr from-[rgb(61,53,68)] to[rgba(198,252,216,1)]">
-              <div className="md:h-[55dvh] md:w-[55dvh]  h-[33dvh] w-[33dvh] bg-gradient-to-b from-[rgba(193,142,232,1)] via-[rgba(193,142,232,1)] to-[rgba(218,210,234,1)] border border-none rounded-full flex items-center justify-center">
+              <div className="md:h-[55dvh] md:w-[55dvh]  h-[33dvh] w-[33dvh] bg-gradient-to-b from-[rgb(214,178,252)] to-[rgba(218,210,234,1)] border border-none rounded-full flex items-center justify-center">
                 <div className="md:h-[50dvh] md:w-[50dvh] h-[30dvh] w-[30dvh] flex items-center justify-center border rounded-full border-dashed  border-2 border-purple-400">
                   <div className="bg-[rgb(172,129,239)] md:h-[40dvh] md:w-[40dvh] h-[25dvh] w-[25dvh] brder rounded-full">
                     <img
@@ -49,7 +49,7 @@ export default function Myinfo() {
             </div>
           </div>
         </div>
-        <div className="w-full h-[40dvh] ">h</div>
+        <div className="w-full h-[40dvh] bg-gray-800 ">h</div>
       </div>
     </>
   );

@@ -11,7 +11,7 @@ export default function Navbar() {
         >
           <div className=" flex items-center font-medium md:text-normal font-bold px-5 md:px-2  gap-8 md:gap-5 ">
             <img className="h-[4svh] md:ml-20 " src="/assets/k.png"></img>
-            <h1 className=" mr-0 md:mr-100 text-purple-900 flex font-bold  text-xl hidden lg:block">
+            <h1 className=" mr-0 md:mr-100 text-purple-800 flex font-bold  text-xl hidden lg:block">
               khadija Zafar
             </h1>
 
