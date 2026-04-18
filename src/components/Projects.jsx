@@ -1,42 +1,63 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom"
 
-export default function Projects() {
+const projects = [
+  {
+    id: 1,
+    title: "Weather App",
+    category: "REACT project",
+    image: "assets/weather.jpeg",
+    link: "https://weather-app-ruby-one-45.vercel.app",
+  },
+  {
+    id: 2,
+    title: "E-Commerce Rebrand",
+    category: "MERN project",
+    image: "assets/ecomerence.png",
+    link: "https://ecomerence-website-six.vercel.app",
+  },
+  {
+    id: 3,
+    title: "Portfolio Web",
+    category: "UI/UX Project",
+    image: "assets/portfolio.png",
+    link: "https://porfolio-web-ashen.vercel.app",
+  },
+
+];
+
+const Project = () => {
   return (
-      <>
-                 
-        <div className="w-1/2  h-1/12 bg-[rgba(129,102,155,1)]  flex flex-col mt-5">
-          <h1 className="text-3xl font-bold text-gray-200  flex justify-center">
-            <img
-              className="w-[6dvh] h-[6dvh] mr-3"
-              src="/assets/projects.png"
-            ></img>
-            PROJECTS
-          </h1>
+    <>
+      <div className="min-h-screen w-full  bg-black/95">
+        <div className="md:p-8  p-4 max-w-7xl mx-auto   ">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4  bg-[#202020] ">
+            {projects.map((pr) => (
+              <div
+                key={pr.id}
+                className="flex flex-col text-white space-y-2 p-4 md:p-8  "
+              >
+                <img
+                  className="border rounded-2xl border-none transition-transform duration-500 hover:scale-105"
+                  src={pr.image}
+                />
+                <div className="font-semibold text-sm flex flex-col mt-2">
+                  <h1>{pr.title}</h1>
+                  <h1 className="text-gray-400">{pr.category}</h1>
+                  <Link className="text-purple-800" to={pr.link}>
+                    {pr.link}
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="md:w-1/2 w-3/4  md:ml-30 ml-10 h-1/8 bg-[rgb(192,149,239)] mt-2">
-          <h1 className=" md:text-sm text-xs text-gray-200 ">
-            I have developed a real-time WEATHER application that leverages REST
-            APIs to deliver accurate, location-specific forecasts through a
-            responsive and intuitive user interface.
-          </h1>
-        </div>
-        <div className="md:w-1/2 w-3/4  md:ml-30 ml-10 h-1/8 bg-[rgb(192,149,239)] mt-2">
-          <h1 className=" text-xs md:text-sm text-gray-200 ">
-            I have developed TODO WEBAPP A privacy-centric productivity tool
-            that stores all user data locally on the device and allows for
-            instant list clearing to help users refresh their daily workflows.
-          </h1>
-        </div>
-        <div className="md:w-1/2 w-3/4  md:ml-30 ml-10 h-1/8 bg-[rgb(192,149,239)] mt-2">
-          <h1 className=" text-xs md:text-sm text-gray-200 ">
-            My ROCK-PAPER-SCISSOR is responsive web application that implements
-            the classic Rock-Paper-Scissors game using HTML, CSS, and
-            JavaScript, featuring real-time score tracking and interactive UI
-            elements."
-          </h1>
-        </div>
-     
-        
-      </>
-  )
+      </div>
+    </>
+  );
 }
+export default Project;
+
+
+
+     

@@ -1,59 +1,68 @@
 import React from 'react'
 import { BrowserRouter as Router, Link } from "react-router-dom";
-
-
+import { useLocation } from "react-router-dom";
+import { TbCircleLetterK, TbSquareLetterK, TbLetterK } from "react-icons/tb";
+import { LuKey } from "react-icons/lu";
 export default function Navbar() {
+    const { pathname } = useLocation();
     return (
       <>
-        <nav
-          className="w-full overflow-x-hidden h-13 bg-gray-50 sticky top-0 z-10 transition duration-300 "
-       
-        >
-          <div className=" flex items-center font-medium md:text-normal font-bold px-5 md:px-2  gap-8 md:gap-5 ">
-            <img className="h-[4svh] md:ml-20 " src="/assets/k.png"></img>
-            <h1 className=" mr-0 md:mr-100 text-purple-800 flex font-bold  text-xl hidden lg:block">
-              khadija Zafar
-            </h1>
+        <nav>
+          <div className="w-full h-16 bg-[#202020] border-b border-gray-700  overflow-x-hidden overscroll-x-none flex">
+            {/* div one content */}
 
-            <Link
-              to="/"
-              className="flex  h-[7dvh] w-[6dvw] items-center justify-center rounded-md hover:border hover:border-purple-500 hover:border-t-3 hover:border-b-3 transition duration-300 ease-in-out text-base"
-              aria-current="page"
-            >
-              Home
-            </Link>
-            <Link
-              className="flex  h-[7dvh] w-[6dvw] items-center justify-center rounded-md hover:border  hover:border-purple-500 hover:border-t-3 hover:border-b-3 transition duration-300 ease-in-out text-base"
-              aria-current="page"
-              to="/about"
-            >
-              About
-            </Link>
-            <Link
-              className="flex  h-[7dvh] w-[6dvw] items-center justify-center rounded-md hover:border  hover:border-purple-500 hover:border-t-3 hover:border-b-3 transition duration-300 ease-in-out text-base"
-              aria-current="page"
-              to="/services"
-            >
-              Service
-            </Link>
-            <Link
-              className="flex  h-[7dvh] w-[6dvw] items-center justify-center rounded-md hover:border  hover:border-purple-500 hover:border-t-3 hover:border-b-3 transition duration-300 ease-in-out text-base"
-              aria-current="page"
-              to="/projects"
-            >
-              Projects
-            </Link>
-            <Link
-              className="flex  h-[7dvh] w-[6dvw] items-center justify-center rounded-md hover:border  hover:border-purple-500 hover:border-t-3 hover:border-b-3 transition duration-300 ease-in-out text-base"
-              aria-current="page"
-              to="/"
-            >
-              Blog
-            </Link>
+            <div className="lg:w-1/2  lg:flex hidden h-full gap-5 items-center font-bold">
+              <div className="h-9 w-9 md:ml-20  text-purple-800">
+              
+                <  TbLetterK strokeWidth={4} size={38}  />
+              </div>
+              <h1 className="  text-gray-100  font-semibold tracking-normal text-2xl ">
+                Khadija Zafar
+              </h1>
+            </div>
 
-            <button className="md:h-[5svh] h-[3svh] md:w-[7svw] rounded bg-purple-400 text-white text-base ">
-              <a href="">Contact</a>
-            </button>
+            {/* route content */}
+
+            <div className="lg:w-1/2 w-full flex items-center justify-center  md:gap-15 md:text-lg text-sm gap-5  text-gray-200  font-semibold  h-full  ">
+              <Link
+                to="/"
+                className={
+                  pathname === "/" ? "text-purple-800" : "text-gray-300"
+                }
+                aria-current="page"
+              >
+                About
+              </Link>
+              <Link
+                href="/resume"
+                className={
+                  pathname === "/resume" ? "text-purple-800 " : "text-gray-300"
+                }
+                to="/resume"
+              >
+                Resume
+              </Link>
+              <Link
+                className={
+                  pathname === "/skills" ? "text-purple-800" : "text-gray-300"
+                }
+                to="/skills"
+              >
+                Skills
+              </Link>
+              <Link
+                className={
+                  pathname === "/projects" ? "text-purple-800" : "text-gray-300"
+                }
+                to="/projects"
+              >
+                Projects
+              </Link>
+
+              <button className="md:py-3 md:px-5  py-2 px-3 rounded font-bold bg-purple-800 text-white text-base ">
+                <a href="">Contact</a>
+              </button>
+            </div>
           </div>
         </nav>
       </>

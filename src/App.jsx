@@ -1,5 +1,5 @@
 import About from './components/About';
-import Myinfo from './components/Myinfo';
+import Resume from './components/Resume';
 import Navbar from './components/Navbar';
 import Skills from "./components/Skills";
 import Projects from './components/Projects';
@@ -14,9 +14,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Myinfo />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Skills />} />
+        <Route path="/" element={<About/>} />
+        <Route path="/resume" element={<Resume/>} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
     </>
