@@ -4,7 +4,7 @@ import { SiX } from "react-icons/si";
 export default function Myinfo() {
   return (
     <>
-      <div className="w-full  min-h-screen  flex flex-col  overscroll-x-none overflow-x-hidden bg-black/95  ">
+      <div className="w-full  min-h-screen mt-10 flex flex-col  overscroll-x-none overflow-x-hidden bg-black/95  ">
         <div className="w-full lg:h-[80dvh] md:h-[70dvh] h-[75dvh] flex flex-col gap-2 lg:flex-row  text-white ">
           <div className="  lg:w-1/2  w-full   md:h-3/4 flex flex-col  ml-5 lg:ml-10 md:justify-center mt-10">
             <div className="lg:h-[60dvh] h-1/2 md:w-3/4 w-5/6  flex flex-col mb-5 lg:mt-30">
@@ -66,9 +66,15 @@ export default function Myinfo() {
               </div>
 
               <div className="flex gap-4 ml-17 mt-2 text-gray-400 ">
-                <div>< FaLinkedin size={18} /></div>
-                <div><FaGithub size={18} /></div>
-                <div><SiX size={18}/></div>
+                <div>
+                  <FaLinkedin size={18} />
+                </div>
+                <div>
+                  <FaGithub size={18} />
+                </div>
+                <div>
+                  <SiX size={18} />
+                </div>
               </div>
             </div>
           </div>

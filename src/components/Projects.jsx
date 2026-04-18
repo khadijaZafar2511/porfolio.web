@@ -29,7 +29,7 @@ const projects = [
 const Project = () => {
   return (
     <>
-      <div className="min-h-screen w-full  bg-black/95">
+      <div className="min-h-screen w-full mt-15 bg-black/95">
         <div className="md:p-8  p-4 max-w-7xl mx-auto   ">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4  bg-[#202020] ">
             {projects.map((pr) => (

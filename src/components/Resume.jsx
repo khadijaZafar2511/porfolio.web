@@ -92,7 +92,7 @@ const Experience = () => {
 
 const Resume = () => {
   return (
-    <div className=" min-h-screen w-full bg-black/95 flex flex-col gap-5 py-2 ">
+    <div className=" min-h-screen w-full bg-black/95 mt-10 flex flex-col gap-5 py-2 ">
       <Education />
       <Experience />
     </div>

@@ -8,13 +8,12 @@ export default function Navbar() {
     return (
       <>
         <nav>
-          <div className="w-full h-16 bg-[#202020] border-b border-gray-700  overflow-x-hidden overscroll-x-none flex">
+          <div className="w-full h-16 bg-[#202020] border-b border-gray-700  overflow-x-hidden overscroll-x-none flex fixed  top-0 z-10 ">
             {/* div one content */}
 
             <div className="lg:w-1/2  lg:flex hidden h-full gap-5 items-center font-bold">
               <div className="h-9 w-9 md:ml-20  text-purple-800">
-              
-                <  TbLetterK strokeWidth={4} size={38}  />
+                <TbLetterK strokeWidth={4} size={38} />
               </div>
               <h1 className="  text-gray-100  font-semibold tracking-normal text-2xl ">
                 Khadija Zafar
